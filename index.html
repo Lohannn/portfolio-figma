@@ -40,8 +40,12 @@
                 </li>
             </ul>
         </nav>
+
     </header>
     <main>
+        <a href="#" class="back" title="Voltar">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
         <section id="home" class="home">
             <img src="./imagens/perfil.png" alt="" class="home__photo">
             <div>
@@ -150,21 +154,21 @@
                 </li>
             </ul>
             <ul class="link-container">
-                    <li>
-                        <h3 class="link-title">Links</h3>
-                    </li>
-                    <li>
-                        <a href="#home">início</a>
-                    </li>
-                    <li>
-                        <a href="#sobre-mim">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="#projetos">projetos</a>
-                    </li>
-                    <li>
-                        <a href="#contato">Contato</a>
-                    </li>
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li>
+                    <a href="#home">início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
             </ul>
         </section>
     </main>
@@ -172,3 +176,26 @@
 </body>
 
 </html>
+
+@media (max-width:960px){
+    
+    <div class="menu__interativo">
+        <input type="checkbox" id="checkbox_toggle">
+        <label for="checkbox_toggle"><span class="menu__bars"><i class="fas fa-bars"></i></span></label>
+        <ul class="menu__options">
+            <li>
+                <a href="#home">Ínicio</a>
+            </li>
+            <li>
+                <a href="#sobre-mim">Sobre Mim</a>
+            </li>
+            <li>
+                <a href="#projetos">Projetos</a>
+            </li>
+            <li>
+                <a href="#contato">Contato</a>
+            </li>
+        </ul>
+    </div>
+
+}

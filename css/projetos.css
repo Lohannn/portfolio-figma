@@ -40,3 +40,9 @@
 .card:hover::before{
     transform: translateY(0%);
 }
+
+/* TABLET */
+
+@media (max-width:960px){
+
+}

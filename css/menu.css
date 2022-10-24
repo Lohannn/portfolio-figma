@@ -13,3 +13,46 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+
+.menu__bars{
+    font-size: 1.56rem;
+    display: none;
+}
+
+/* TABLET */
+
+@media (max-width:960px){
+
+    .menu li{
+        display: none;
+    }
+
+    .menu__bars{
+        display: block;
+    }
+
+    .menu__options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 120px;
+        background-color: var(--icon-color);
+        position: absolute;
+        transform: translate(300%, -20%);
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .menu__options ul{
+        display: flex;
+        flex-direction: column;
+        gap:12px;
+        display: none;
+    }
+
+    .menu__options li:hover{
+        color: var(--primary-color);
+    }
+
+}
