@@ -1,0 +1,65 @@
+.contato{
+    max-width: 1200px;
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-areas:
+                "title title title"
+                "contato social link";
+    grid-template-rows: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato-container{
+    grid-area: contato;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contato-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contato-item{
+    display: flex;
+    gap: 16px;
+}
+
+.social-container{
+    grid-area: social;
+    display: flex;
+    gap: 32px;
+    font-size: 2rem;
+}
+
+.social-item{
+    width: 64px;
+    height: 64px;
+    background-color: var(--icon-color);
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    transition: all .7s;
+}
+
+.social-item:hover{
+    color: var(--primary-color);
+    box-shadow: inset 0px 0px 7px var(--primary-color);
+    transform: scale(115%);
+}
+
+.link-container{
+    grid-area: link;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: right;
+}
+
+.link-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}

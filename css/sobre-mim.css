@@ -8,6 +8,7 @@
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 64px;
+    padding-top: 50px;
 }
 
 .section-title{

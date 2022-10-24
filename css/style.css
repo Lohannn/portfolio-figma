@@ -41,21 +41,16 @@ section{
     height: 100vh;
 }
 
-.projetos{
-    background-color: indigo;
-    width: 100%;
-}
-
-.contato{
-    background-color: hotpink;
-    width: 100%;
-
-}
-
 footer{ 
     place-self: end start;
     grid-area: content;
-    height: 100px;
+    height: 50px;
     width: 100%;
     background-color: #0008;
+    border-top: 2px solid white;
+    display: grid;
+    place-content: center;
+    font-size: .75rem;
+    font-style: italic;
+    font-weight: 300;
 }
