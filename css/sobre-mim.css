@@ -47,11 +47,13 @@
     grid-area: skills;
     
 }
+
 .skills__title{
     display: flex;
     font-size: 3rem;
     color: var(--primary-color);
 }
+
 .skills__icons{
     display: flex; 
     flex-wrap: wrap;
@@ -68,7 +70,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .7s;
 }
+
+.skills__icon:hover{
+    color: var(--primary-color);
+    box-shadow: inset 0px 0px 10px var(--primary-color);
+    transform: scale(115%);
+}
+
 .skills__icon i{
     font-size: 4rem;
 }

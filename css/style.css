@@ -99,13 +99,10 @@ footer{
 
 @media (max-width:960px){
     
-    header{
-        place-self: start;
-        max-width: 670px;
-        width: 100%;
-        justify-content: center;
-        gap: 100px;
-    }
+     header{
+         display: flex;
+         padding: 30px;
+     }
 
 }
 
