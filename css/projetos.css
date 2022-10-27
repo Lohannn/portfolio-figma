@@ -45,4 +45,8 @@
 
 @media (max-width:960px){
 
+    .card-container{
+        flex-direction: column;
+    }
+
 }

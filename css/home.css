@@ -3,9 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 81px;
+    text-align: center;
+    gap: 40px;
     width: 100%;
 }
 

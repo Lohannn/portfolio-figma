@@ -56,6 +56,7 @@
 
 .skills__icons{
     display: flex; 
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 32px;
 }
@@ -88,8 +89,35 @@
     letter-spacing: 5px;
 }
 
+.espacoT{
+    display: none;
+}
+
 /* TABLET */
 
 @media (max-width:960px){
 
+    .espaco{
+        display: none;
+    }
+
+    .espacoT{
+        display: block;
+    }
+
+    .sobre-mim{
+        max-width: 878px;
+        padding-top: 90px;
+        grid-template-areas: 
+            "title title"
+            "description description"
+            "skills skills";
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills__icon{
+        width: 200px;
+        height: 200px;
+    }
 }

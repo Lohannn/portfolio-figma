@@ -104,6 +104,10 @@ footer{
          padding: 30px;
      }
 
+     section{
+         height: 150vh;
+     }
+
 }
 
 /* MOBILE */

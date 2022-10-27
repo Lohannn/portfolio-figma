@@ -44,5 +44,6 @@
 
     .logo{
         display: block;
+        transform: translateX(-90%);
     }
 }
