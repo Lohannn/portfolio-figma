@@ -40,6 +40,7 @@ header{
     grid-area: content;
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: center;
     max-width: 1200px;
     width: 100%;
@@ -93,6 +94,10 @@ footer{
     font-size: .75rem;
     font-style: italic;
     font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* TABLET */
@@ -101,15 +106,21 @@ footer{
     
      header{
          display: flex;
-         padding: 30px;
+         justify-content: center;
+         gap: 5%;
+         max-width: 878px;
      }
 
      .sobre-mim{
-         height: 155vh;
+         height: 120vh;
      }
 
      .projetos{
-         height: 470vh;
+         height: 370vh;
+     }
+
+     .contato{
+         height: 100vh;
      }
 
 }
@@ -119,14 +130,15 @@ footer{
 @media (max-width:640px){
     
     .sobre-mim{
-        height: 175vh;
+        height: 170vh;
     }
 
     .projetos{
-        height: 300vh;
+        height: 190vh;
     }
+    
     .contato{
-        height: 115vh;
+        height: 140vh;
     }
 
 }

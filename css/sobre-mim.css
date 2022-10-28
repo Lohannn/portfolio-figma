@@ -8,7 +8,6 @@
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 64px;
-    padding-top: 50px;
 }
 
 .section-title{
@@ -107,18 +106,20 @@
 
     .sobre-mim{
         max-width: 878px;
-        padding-top: 90px;
         grid-template-areas: 
             "title title"
             "description description"
             "skills skills";
-        grid-template-rows: auto 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
     }
 
-    .skills__icon{
-        width: 200px;
-        height: 200px;
+    .skills__title{
+        padding-left: 20%;
+    }
+
+    .skills__icons{
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }
 
@@ -127,12 +128,21 @@
 @media (max-width:640px){
 
     .sobre-mim{
-        max-width: 590px;
         grid-template-areas: 
             "title title"
             "description description"
             "skills skills";
-        grid-template-rows: auto 1fr;
+        grid-template-rows: auto 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+        padding: 4%;
+    }
+
+    .skills__title{
+        padding-left: 0%;
+    }
+
+    .skills__icons{
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }

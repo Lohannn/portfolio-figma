@@ -1,28 +1,9 @@
-.logoD{
-    font-size: 1.5rem;
-}
-
 .logo{
     font-size: 1.5rem;
-    display: none;
-}
-
-.logoD::before{
-    content: "<";
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
 }
 
 .logo::before{
     content: "<";
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-}
-
-.logoD::after{
-    content: "/>";
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -38,22 +19,10 @@
 /* TABLET */
 
 @media (max-width:960px){
-    .logoD{
-        display: none;
-    }
 
-    .logo{
-        display: block;
-        transform: translateX(-90%);
-    }
 }
 
 /* MOBILE */
 @media (max-width:960px){
-
-    .logo{
-        display: block;
-        transform: translateX(-30%);
-    }
-
+    
 }

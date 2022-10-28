@@ -1,7 +1,6 @@
 .contato{
     max-width: 1200px;
     width: 100%;
-    padding-top: 50px;
     display: grid;
     grid-template-areas:
                 "title title title"
@@ -70,13 +69,13 @@
 
     .contato{
         max-width: 878px;
-        padding-top: 90px;
         grid-template-areas:
                 "title title"
                 "contato link" 
                 "social social";
         grid-template-rows: auto 1fr 1fr;
         place-items: center;
+        padding-top: 70px;
     }
 
     .social-container{
@@ -87,7 +86,7 @@
 
 /* MOBILE */
 
-@media (max-width:960px){
+@media (max-width:640px){
 
     .contato{
         max-width: 570px;
@@ -97,7 +96,7 @@
                 "contato" 
                 "social"
                 "link";
-        grid-template-rows: auto 1fr  1fr 1fr 1fr;
+        grid-template-rows: auto 1fr  1fr 1fr;
         justify-content: center;
         gap: 30px;
     }
