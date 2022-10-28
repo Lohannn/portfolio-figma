@@ -68,4 +68,54 @@
 
 @media (max-width:960px){
 
+    .contato{
+        max-width: 878px;
+        padding-top: 90px;
+        grid-template-areas:
+                "title title"
+                "contato link" 
+                "social social";
+        grid-template-rows: auto 1fr 1fr;
+        place-items: center;
+    }
+
+    .social-container{
+        place-self: center;
+    }
+
+}
+
+/* MOBILE */
+
+@media (max-width:960px){
+
+    .contato{
+        max-width: 570px;
+        padding-top: 90px;
+        grid-template-areas:
+                "title"
+                "contato" 
+                "social"
+                "link";
+        grid-template-rows: auto 1fr  1fr 1fr 1fr;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .social-container{
+        flex-direction: column;
+    }
+
+    .contato-container{
+        text-align: center;
+        align-items: center;
+        place-self: center;
+    }
+
+    .link-container{
+        text-align: center;
+        align-items: center;
+        place-self: center;
+    }
+
 }

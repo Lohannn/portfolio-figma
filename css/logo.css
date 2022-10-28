@@ -47,3 +47,13 @@
         transform: translateX(-90%);
     }
 }
+
+/* MOBILE */
+@media (max-width:960px){
+
+    .logo{
+        display: block;
+        transform: translateX(-30%);
+    }
+
+}

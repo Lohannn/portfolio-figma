@@ -104,8 +104,12 @@ footer{
          padding: 30px;
      }
 
-     section{
-         height: 150vh;
+     .sobre-mim{
+         height: 155vh;
+     }
+
+     .projetos{
+         height: 470vh;
      }
 
 }
@@ -114,4 +118,15 @@ footer{
 
 @media (max-width:640px){
     
+    .sobre-mim{
+        height: 175vh;
+    }
+
+    .projetos{
+        height: 300vh;
+    }
+    .contato{
+        height: 115vh;
+    }
+
 }

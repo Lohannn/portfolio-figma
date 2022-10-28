@@ -63,3 +63,11 @@
     }
 
 }
+
+/* MOBILE */
+
+@media (max-width:640px){
+    .menuD{
+        left: 78%;
+    }
+}
