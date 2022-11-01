@@ -24,5 +24,15 @@
 
 /* MOBILE */
 @media (max-width:960px){
+    .logo{
+        font-size: 1.2rem;
+    }
     
+    .logo::before{
+        font-size: 1.2rem;
+    }
+    
+    .logo::after{
+        font-size: 1.2rem;
+    }
 }
