@@ -135,6 +135,7 @@
         grid-template-rows: auto 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         padding: 4%;
+        margin-bottom: 50%;
     }
 
     .skills__title{
