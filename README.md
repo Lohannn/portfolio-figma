@@ -1,6 +1,6 @@
 # portfolio-figma
 
-![](./img/Portifolio.png)
+![](./imagens/Portifolio.png)
 
 ---
 
