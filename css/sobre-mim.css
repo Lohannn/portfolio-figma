@@ -111,6 +111,7 @@
             "description description"
             "skills skills";
         grid-template-rows: auto 1fr 1fr;
+        margin-bottom: 20%;
     }
 
     .skills__title{

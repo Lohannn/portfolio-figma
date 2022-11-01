@@ -107,7 +107,7 @@ footer{
      header{
          display: flex;
          justify-content: center;
-         gap: 5%;
+         gap: 20%;
          max-width: 878px;
      }
 
@@ -116,7 +116,7 @@ footer{
      }
 
      .projetos{
-         height: 370vh;
+         height: 450vh;
      }
 
      .contato{
@@ -128,6 +128,10 @@ footer{
 /* MOBILE */
 
 @media (max-width:640px){
+
+    header{
+        gap: 3%;
+    }
     
     .sobre-mim{
         height: 170vh;
