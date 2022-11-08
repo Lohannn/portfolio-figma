@@ -112,15 +112,15 @@ footer{
      }
 
      .sobre-mim{
-         height: 120vh;
+         height: auto;
      }
 
      .projetos{
-         height: 450vh;
+        height: auto;
      }
 
      .contato{
-         height: 100vh;
+        height: auto;
      }
 
 }
@@ -134,15 +134,15 @@ footer{
     }
     
     .sobre-mim{
-        height: 170vh;
+        height: auto;
     }
 
     .projetos{
-        height: 190vh;
+        height: auto;
     }
     
     .contato{
-        height: 140vh;
+        height: auto;
     }
 
 }

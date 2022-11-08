@@ -75,7 +75,6 @@
                 "social social";
         grid-template-rows: auto 1fr 1fr;
         place-items: center;
-        padding-top: 70px;
     }
 
     .social-container{
@@ -99,7 +98,6 @@
         grid-template-rows: auto 1fr  1fr 1fr;
         justify-content: center;
         gap: 30px;
-        margin-bottom: 20%;
     }
 
     .social-container{
